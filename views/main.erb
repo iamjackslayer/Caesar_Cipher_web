@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<body>
+	<p>Hello World!</p>
+	<form>
+		original code: 
+		<input type="text" name="ori"><br>
+		shift: 
+		<input type="text" name="shift"><br>
+		<input type="submit" value="convert">
+	</form>
+	<% if @secret %>
+	<p>Your secret code is <%= @secret %></p> 
+	<% end %>
+</body>
+</html>	
